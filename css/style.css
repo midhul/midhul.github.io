@@ -1,4 +1,4 @@
-:root {
+/*:root {
     --primary-color: #1976d2;
     --primary-color-dark: #004ba0;
     --primary-color-light: #63a4ff;
@@ -8,11 +8,16 @@
     --break-point-large: 992px;
     --break-point-medium: 768px;
     --break-point-small: 576px;
+}*/
+
+body
+{
+    font-family: Microsoft JhengHei;
 }
 
 blockquote {
-    background: var(--grey-light);
-    border-left: .5rem solid var(--grey-dark);
+    background: #efefef;
+    border-left: .5rem solid #8d8d8d;
     padding: .5rem 1rem;
 }
 
@@ -42,20 +47,20 @@ footer {
 }
 
 .breadcrumb {
-    background-color: var(--primary-color-dark);
+    background-color: #004ba0;
     line-height: 2;
     padding-left: 16px;
     padding-right: 16px;
 }
 
 .breadcrumb a {
-    background-color: var(--primary-color-dark);
+    background-color: #004ba0;
     color: #fff;
     margin-right: 16px;
 }
 
 a {
-    color: var(--primary-color-dark);
+    color: #004ba0;
     text-decoration: none;
     opacity: 1;
 }
@@ -157,7 +162,7 @@ ul {
 
 #recent-posts > ul > li > span,
 #list > ul > li > p {
-    color: var(--grey);
+    color: #bdbdbd;
     font-family: Consolas, monaco, monospace;
     margin-right: 8px;
     font-weight: normal;
@@ -207,7 +212,7 @@ ul {
 }
 
 .post-content > p code {
-    background-color: var(--grey-light);
+    background-color: #efefef;
     padding: 2px 4px;
     border-radius: 2px;
 }
